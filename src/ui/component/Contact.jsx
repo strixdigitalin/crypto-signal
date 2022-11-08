@@ -2,7 +2,13 @@ import React from "react";
 import { Typography, Box, Container, TextField, Button } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import Fade from "react-reveal/Fade";
-import TelegramEmbed from 'react-telegram-embed'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import telegram1 from "../assets/Telegram (1).jpeg";
+import telegram2 from "../assets/Telegram (2).jpeg";
+import telegram3 from "../assets/Telegram (3).jpeg";
+import telegram4 from "../assets/Telegram (4).jpeg";
 
 const Contact = () => {
   const theme = useTheme();
@@ -36,6 +42,14 @@ const Contact = () => {
         border: "1px solid #000000",
       },
     },
+  };
+  const settings = {
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 100,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
 
   return (
@@ -119,19 +133,23 @@ const Contact = () => {
           </Typography>
           <br />
           <br />
-          <Box
-            sx={{
-              background: "#D9D9D9",
-              width: { md: "519px", xs: "100%" },
-              margin: "1px auto",
-            }}
-          >
-            <br />
-            <br />
-            <TelegramEmbed src="http://t.me/cryptoprojecttest" />
-            <br />
-            <br />
-          </Box>
+            <Box
+              sx={{
+                background: "transparent",
+                width: { md: "519px", xs: "100%" },
+                margin: "1px auto",
+                // marginBottom: '10px'
+              }}
+            >
+              <a href="https://t.me/TheCryptoExpress">
+              <Slider {...settings}>
+                <img src={telegram1} height={500} />
+                <img src={telegram2} height={500} />
+                <img src={telegram3} height={500} />
+                <img src={telegram4} height={500} />
+              </Slider>
+          </a>
+            </Box>
         </Container>
       </Box>
     </>
