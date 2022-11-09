@@ -66,7 +66,7 @@ const Hero = () => {
                                 Single Destination for <span style={spanStyle}>Crypto </span> Serving Since 2017
                             </Typography>
                             {/* <img src={require("../assets/Crypto Express.svg").default} alt="" className={classes.text} /> */}
-                            <Button variant="contained" color="primary" sx={btnStyle}>
+                            <Button href='https://t.me/TheCryptoExpress' variant="contained" color="primary" sx={btnStyle}>
                                 Join us on Telegram
                             </Button>
                         </Fade>

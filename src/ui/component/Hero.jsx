@@ -45,7 +45,7 @@ const Hero = () => {
                         </Typography>
                         <br />
                         <Box textAlign="center">
-                            <Button sx={btnStyle} >
+                            <Button href='https://t.me/TheCryptoExpress' sx={btnStyle} >
                                 Join us on Telegram
                             </Button>
                         </Box>
