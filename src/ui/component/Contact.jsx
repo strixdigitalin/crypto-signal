@@ -143,10 +143,10 @@ const Contact = () => {
             >
               <a href="https://t.me/TheCryptoExpress">
               <Slider {...settings}>
-                <img src={telegram1} height={500} />
-                <img src={telegram2} height={500} />
-                <img src={telegram3} height={500} />
-                <img src={telegram4} height={500} />
+                <img src={telegram1} />
+                <img src={telegram2} />
+                <img src={telegram3} />
+                <img src={telegram4} />
               </Slider>
           </a>
             </Box>
