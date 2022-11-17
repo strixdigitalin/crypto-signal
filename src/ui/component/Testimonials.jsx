@@ -68,38 +68,38 @@ const Testimonials = () => {
                         <br /><br /><br />
                         <Slider {...settings}>
                             {[{
-                                name: "Avinash Seth",
+                                name: "Almin Jospeh",
                                 title: "“ Love your  Saviour, not only your signals. ”"
                                 , role: "Business Associate "
                             }, {
-                                name: "Karthik Jain",
+                                name: "Shady Sibai",
                                 title: "“ I am really satisfied with your signals and market updates especially your unique cryptomarketcap analysis. From the first hour, your deliver great accurate signals. Thanks. ”"
                                 , role: "Student"
                             }, {
-                                name: "Rahul Soni",
+                                name: "Morris Gary",
                                 title: "“ I am really satisfied with your signals and market updates especially your unique cryptomarketcap analysis. ”"
                                 , role: "Business Manager"
                             },
                             {
-                                name: "Tanya Bhatt",
+                                name: "Trivu Semp",
                                 title: "“ I am really satisfied with your signals and market updates , Thanks  ”"
                                 , role: "Trader"
                             },
                             {
-                                name: "Avinash Seth",
+                                name: "Adam Kriston",
                                 title: "“ Love your  Saviour, not only your signals. ”"
                                 , role: "Business Associate "
                             }, {
-                                name: "Karthik Jain",
+                                name: "Ilva Mater",
                                 title: "“ I am really satisfied with your signals and market updates especially your unique cryptomarketcap analysis. From the first hour, your deliver great accurate signals. Thanks. ”"
                                 , role: "Student"
                             }, {
-                                name: "Rahul Soni",
+                                name: "Azalot Bisp",
                                 title: "“ I am really satisfied with your signals and market updates especially your unique cryptomarketcap analysis. ”"
                                 , role: "Business Manager"
                             },
                             {
-                                name: "Tanya Bhatt",
+                                name: "Josephine Riveria",
                                 title: "“ I am really satisfied with your signals and market updates , Thanks  ”"
                                 , role: "Trader"
                             },].map((item, i) => (
